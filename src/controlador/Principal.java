@@ -13,6 +13,7 @@ public class Principal {
 	 * @param args
 	 */
 	public static void main(String[] args) {
+		System.out.println("Mensaje para controlar la gestion");
 		PrincipalVNT miVentana = new PrincipalVNT();
 		miVentana.cargaVentana(miVentana);
 	}
